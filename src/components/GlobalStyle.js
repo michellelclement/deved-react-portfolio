@@ -1,18 +1,18 @@
 import { createGlobalStyle } from "styled-components"
 
 const GlobalStyle = createGlobalStyle`
-  *{
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-  body{
+  body {
     background: #1b1b1b;
     font-family: 'Inter', sans-serif;
   }
 
-  button{
+  button {
     font-weight: bold;
     font-size: 1.1.rem;
     cursor: pointer;
@@ -146,9 +146,6 @@ const GlobalStyle = createGlobalStyle`
       font-size: 0.7rem;
     }
   }
-
-
-  
 
 `
 
